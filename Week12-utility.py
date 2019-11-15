@@ -4,3 +4,9 @@
 
 def PrintOutput(string):
     print('OUTPUT', string)
+
+def LoadFile(user_file):
+    with open(user_file) as file:
+        lines = file.readlines()
+    lines = [i.strip() for i in lines]
+    return lines
