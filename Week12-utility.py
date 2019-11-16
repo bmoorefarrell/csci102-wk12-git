@@ -10,3 +10,10 @@ def LoadFile(user_file):
         lines = file.readlines()
     lines = [i.strip() for i in lines]
     return lines
+
+#This takes the first string, goes to the specified index, replaces that index with the second string,
+#then adds the rest of the first string (the part after the specified index)
+def UpdateString(string_a, string_b, index):
+    new_string = string_a[:index] + string_b + string_a[index + 1:]
+    return new_string
+    
