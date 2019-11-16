@@ -20,3 +20,16 @@ def UpdateString(string_a, string_b, index):
 #counts number of occurrences of user_string in user_list
 def FindWordCount(user_list, user_string):
     return user_list.count(user_string)
+
+def ScoreFinder(name_list, score_list, name_request):
+    for i in range(len(name_list)):
+        if name_list[i] == name_request:
+            position = i
+            name = name_list[i]
+            print('OUTPUT', name, 'got a score of', score_list[position])
+    if name_request not in name_list:
+        print('OUTPUT player not found')
+            
+
+        
+        
