@@ -16,4 +16,7 @@ def LoadFile(user_file):
 def UpdateString(string_a, string_b, index):
     new_string = string_a[:index] + string_b + string_a[index + 1:]
     return new_string
-    
+
+#counts number of occurrences of user_string in user_list
+def FindWordCount(user_list, user_string):
+    return user_list.count(user_string)
