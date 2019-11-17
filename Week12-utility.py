@@ -32,5 +32,8 @@ def ScoreFinder(name_list, score_list, name_request):
             
 def Union(list_a, list_b):
     return list_a + list_b
+
+def Intersection(first_list, second_list):
+    return set(first_list).intersection(second_list)
         
         
