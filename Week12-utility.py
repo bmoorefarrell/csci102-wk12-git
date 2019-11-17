@@ -30,6 +30,7 @@ def ScoreFinder(name_list, score_list, name_request):
     if name_request not in name_list:
         print('OUTPUT player not found')
             
-
+def Union(list_a, list_b):
+    return list_a + list_b
         
         
