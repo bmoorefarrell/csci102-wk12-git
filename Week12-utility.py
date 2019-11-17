@@ -35,5 +35,10 @@ def Union(list_a, list_b):
 
 def Intersection(first_list, second_list):
     return set(first_list).intersection(second_list)
+
+def NotIn(list_1, list_2):
+    list_3 = [i for i in list_1 if i not in list_2]
+    return list_3
+
         
         
