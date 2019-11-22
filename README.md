@@ -1,12 +1,29 @@
-# PrintOutput: Simple print statement executing on a string
-# LoadFile: Loads file, reads the lines of the file, and returns the lines as elements of a list
-# UpdateString: Replaces given string with chosen replacement, at the index specified
-# FindWordCount: Finds and returns the number of occurrences of a specified string in a list
-# ScoreFinder: Finds the requested player and their respective score, and returns it. If player
-# not in list, returns "player not found"
-# Union: Concatenates two lists together, and returns this version
-# Intersection: Finds like elements in two lists, and returns them in a new list
-# NotIn: Finds elements in list 1 that are not in list 2, and returns them in new list
+# PrintOutput: Simple print statement executing on a string, solved by placing print 
+statement in function
+
+# LoadFile: Solved by opening a file, reading the lines of that file and identifying 
+individual words using strip()
+
+# UpdateString: Creates new string containing all characters up to the specified index,
+then adds in the other string, then adds/concatenates the rest of the original string
+
+# FindWordCount: Used count function to determine the amount of times the specified
+string occurs in the list
+
+# ScoreFinder: Uses len/range combo to iterate through list of names, determines
+if there is the requested name in the list, and if so it goes to that same index
+in the list of scores (to ensure the name matches the score), and prints out
+the name and score. If player is not found in initial search, error message is 
+printed
+
+# Union: Concatenates two lists together using '+', and returns this version
+
+# Intersection: Uses set function to find the intersection of the first list with the second,
+and returns that list
+
+# NotIn: Used conditionals and looping through list 1 and 2 to determine the elements that
+are unique to each list. Prints out this new list.
+
 # Brant Moore-Farrell
 # CSCI 102 - Section B
 # Week 12 - Part A
