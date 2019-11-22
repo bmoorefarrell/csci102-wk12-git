@@ -18,8 +18,8 @@
 
 # Union: Concatenates two lists together using '+', and returns this version
 
-# Intersection: Uses set function to find the intersection of the first list with the second,
-#and returns that list
+# Intersection: Used conditionals and looping through the two lists to determine elements
+#that are similar. Prints out this new list.
 
 # NotIn: Used conditionals and looping through list 1 and 2 to determine the elements that
 #are unique to each list. Prints out this new list.

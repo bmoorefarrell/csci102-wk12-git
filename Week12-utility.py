@@ -37,7 +37,6 @@ def Union(list_a, list_b):
 def Intersection(first_list, second_list):
     new_list = [i for i in first_list if i in second_list]
     return print('OUTPUT', new_list)
-##    return print('OUTPUT', list(first_list).intersection(second_list))
 
 def NotIn(list_1, list_2):
     list_3 = [i for i in list_1 if i not in list_2]
